@@ -2,7 +2,7 @@
 # Introduction
 This project provides a data-driven analysis of delivery performance for a fictional company, Atliq Mart. The company has provided several CSV files that contain information about customers, products, dates, targets, and order details. The goal of this project is to create a dataframe that summarizes the delivery performance of each customer and compares it to the assigned targets.
 # Prerequisites
- To run this project, you will need the following software.
+To run this project, you will need the following software.
 Python 3.x
 Pandas library
 Matplotlib library (optional, for visualization).
