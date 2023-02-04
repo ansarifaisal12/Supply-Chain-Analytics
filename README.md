@@ -8,7 +8,6 @@ Pandas library
 Matplotlib library (optional, for visualization).
 # Project Structure
  The project consists of the following files:
-
 analysis.py: the main Python script that performs the data analysis and produces the final dataframe.
 dim_customers.csv: a CSV file that contains information about customers, including their unique identifier, name, and city.
 dim_products.csv: a CSV file that contains information about products, including their name, unique identifier, and category.
