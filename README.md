@@ -2,7 +2,7 @@
 # Introduction
 This project provides a data-driven analysis of delivery performance for a fictional company, Atliq Mart. The company has provided several CSV files that contain information about customers, products, dates, targets, and order details. The goal of this project is to create a dataframe that summarizes the delivery performance of each customer and compares it to the assigned targets.
 # Prerequisites
- To run this project, you will need the following software:
+ To run this project, you will need the following software.
 Python 3.x
 Pandas library
 Matplotlib library (optional, for visualization).
@@ -16,6 +16,5 @@ dim_date.csv: a CSV file that contains information about dates, including the da
 dim_targets_orders.csv: a CSV file that contains target data at the customer level, including the customer's unique identifier, ontime target percentage, infull target percentage, and otif target percentage.
 fact_order_lines.csv: a CSV file that contains information about orders and each item inside the orders, including the order ID, order placement date, customer ID, product ID, order quantity, agreed delivery date, actual delivery date, and delivered quantity.
 fact_orders_aggregate.csv: a CSV file that contains information about OnTime, InFull, and OnTime Infull information aggregated at the order level per customer, including the order ID, customer ID, order placement date, on-time flag, in-full flag, and otif flag.
-
-#Conclusion
+# Conclusion
 This project demonstrates how to use Python and Pandas to perform a data-driven analysis of delivery performance for a fictional company. The final dataframe provides valuable insights into the delivery performance of each customer and helps the company identify areas for improvement.
